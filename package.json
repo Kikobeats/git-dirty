@@ -1,25 +1,29 @@
 {
   "name": "git-dirty",
-  "version": "1.0.0",
   "description": "Ensures the working directory is clean and that there are no unpulled changes",
-  "license": "MIT",
-  "repository": "Kikobeats/git-dirty",
+  "homepage": "https://github.com/Kikobeats/git-dirty",
+  "version": "1.0.0",
+  "bin": "dirty.sh",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
     "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats"
   },
-  "bin": "dirty.sh",
+  "repository": "Kikobeats/git-dirty",
+  "bugs": {
+    "url": "https://github.com/Kikobeats/git-dirty/issues"
+  },
+  "keywords": [
+    "check",
+    "cli",
+    "dirty",
+    "git"
+  ],
   "engines": {
     "node": ">=0.10.0"
   },
   "files": [
     "dirty.sh"
   ],
-  "keywords": [
-    "cli",
-    "dirty",
-    "check",
-    "git"
-  ]
+  "license": "MIT"
 }
