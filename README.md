@@ -13,6 +13,7 @@ $ npm install --global git-dirty
 ```sh
 git-dirty
 ```
+
 ## License
 
 MIT © [Kiko Beats](http://www.kikobeats.com)
