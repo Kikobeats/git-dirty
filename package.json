@@ -2,7 +2,7 @@
   "name": "git-dirty",
   "description": "Ensures the working directory is clean and that there are no unpulled changes",
   "homepage": "https://github.com/Kikobeats/git-dirty",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": "dirty.sh",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
