@@ -2,14 +2,19 @@
   "name": "git-dirty",
   "description": "Ensures the working directory is clean and that there are no unpulled changes",
   "homepage": "https://github.com/Kikobeats/git-dirty",
-  "version": "1.0.1",
-  "bin": "dirty.sh",
+  "version": "1.0.2",
+  "bin": {
+    "git-dirty": "dirty.sh"
+  },
   "author": {
-    "email": "josefrancisco.verdu@gmail.com",
     "name": "Kiko Beats",
+    "email": "josefrancisco.verdu@gmail.com",
     "url": "https://github.com/Kikobeats"
   },
-  "repository": "Kikobeats/git-dirty",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikobeats/git-dirty.git"
+  },
   "bugs": {
     "url": "https://github.com/Kikobeats/git-dirty/issues"
   },
