@@ -1,5 +1,7 @@
 # git-dirty
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/git-dirty.svg)](https://greenkeeper.io/)
+
 > Ensures the working directory is clean and that there are no unpulled changes
 
 ## Install
