@@ -1,14 +1,14 @@
 {
   "name": "git-dirty",
-  "description": "Ensures the working directory is clean and that there are no unpulled changes",
+  "description": "Fail CI when the git working tree is dirty or behind remote — enforce a clean checkout.",
   "homepage": "https://github.com/Kikobeats/git-dirty",
   "version": "1.0.2",
   "bin": {
     "git-dirty": "dirty.sh"
   },
   "author": {
-    "name": "Kiko Beats",
     "email": "josefrancisco.verdu@gmail.com",
+    "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats"
   },
   "repository": {
@@ -20,9 +20,15 @@
   },
   "keywords": [
     "check",
+    "checkout",
+    "ci",
+    "clean",
     "cli",
     "dirty",
-    "git"
+    "git",
+    "status",
+    "unpulled",
+    "working-tree"
   ],
   "files": [
     "dirty.sh"
